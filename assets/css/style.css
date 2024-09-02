@@ -1,0 +1,2087 @@
+/* google fonts - poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    /* width: 100%; */
+}
+#donatur {
+    height: 15rem;
+}
+.slide-slider {
+    margin-top: 20px;
+    transition: all 0.5s ease;
+    width: 100%;
+    height: 100vh;
+    /* background: linear-gradient(to top right, #7f9f22, #b7b9b1) no-repeat center; */
+    /* display: f[lex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0 50px; */
+}
+.card-title {
+    margin-bottom: 0;
+}
+.card-slide {
+    /* position: relative; */
+    background: #e5ebd4;
+    border-radius: 20px;
+    padding: 10px 35px;
+    box-shadow: 0 0 10px #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    width: 100%;
+    padding-bottom: 25px;
+}
+.card-slide .card-title {
+    /* width: 150px; */
+    /* height: 150px; */
+    padding: 0;
+    width: 100%;
+    /* border: 3px solid #7f9f22; */
+    /* background: #fff; */
+    /* border-radius: 50%; */
+    /* margin-bottom: 20px; */
+}
+.baris-donasi {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+}
+.kolom1 {
+    display: flex;
+    justify-content: start;
+    padding: 0;
+}
+.kolom2 {
+    padding: 0;
+    display: flex;
+    justify-content: end;
+    color: #44550e;
+    align-items: end;
+}
+.kolom2 p {
+    color: #44550e;
+}
+.card-slide .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.card-slide h6,
+.card-slide .image h3 {
+    /* text-align: center; */
+    /* jus */
+}
+.card-slide h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #44550e;
+    margin-top: 10px;
+}
+.card-slide h6 {
+    font-size: 12px;
+}
+.card-slide p {
+    color: #7f9f22;
+    text-align: center;
+}
+.swiper-container {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+}
+.swiper {
+    margin: 0 auto;
+    cursor: grab;
+}
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-button-next,
+.swiper-button-prev {
+    position: absolute;
+    top: 67%;
+    transform: translateY(-50%);
+    z-index: 100;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #7f9f22;
+    /* box-shadow: 0 0 10px #ccc; */
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+.swiper-button-next {
+    right: -50px;
+}
+.swiper-button-prev {
+    left: -50px;
+}
+/* .swiper-button-next:hover {
+    transform: scale(1.2) translateX(80%);
+}
+.swiper-button-prev:hover {
+    transform: scale(1.2) translateX(-80%);
+} */
+.card .div-donasi-card {
+    justify-content: center;
+    display: flex;
+    /* width: 90%; */
+}
+.div-donasi-card row {
+    width: 100%;
+}
+.donasi-card1 {
+    height: 22.4rem;
+}
+.btn-card {
+    margin-top: 20px;
+}
+.donasi-card2 {
+    padding: 1rem;
+}
+.donasi-card1 .paragraf p {
+    text-align: justify;
+}
+.logo img {
+    width: 3rem;
+}
+#alamat-kami ul li .fab {
+    margin-right: 24px;
+}
+.nav-link {
+    margin: 0 2.5rem 0 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.judul1,
+.judul2,
+.judul3 {
+    font-size: 15px;
+}
+.desk1,
+.desk2,
+.desk3 {
+    font-size: 12px;
+}
+#beranda {
+    height: 500px;
+}
+/* #latar-belakang {
+    height: auto;
+} */
+.latarbelakang-gambar1,
+.latarbelakang-gambar2,
+.latarbelakang-gambar3,
+.latarbelakang-gambar4 {
+    padding: 0;
+}
+.masjid1,
+.masjid2,
+.masjid3,
+.masjid4 {
+    margin: 5px;
+    width: 95%;
+}
+#tentang-kami {
+    margin-top: 4rem;
+    height: 50rem;
+}
+#alamat-kami {
+    height: 500px;
+    background: #7f9f22;
+}
+
+#laporan {
+    height: auto;
+}
+#donasi {
+    height: 500px;
+    margin-top: 5rem;
+    background: #7f9f22;
+}
+p {
+    margin-bottom: 0%;
+}
+.btn-custom,
+.btn-custom-nav,
+.btn-custom-laporan,
+.btn-card {
+    background-color: #7f9f22;
+    color: aliceblue;
+}
+.beranda {
+    background-size: cover; /* Mengisi seluruh area dengan gambar */
+    background-position: center; /* Posisi gambar di tengah */
+    background-repeat: no-repeat; /* Tidak mengulang gambar */
+}
+.laporan h2 {
+    margin-top: 2rem;
+    color: #7f9f22;
+}
+.button-hero {
+    position: absolute;
+    left: 4rem;
+    bottom: 10rem;
+    background-color: #7f9f22;
+    color: #ffffff;
+    box-shadow: -4px 4px 6px rgba(0, 0, 0, 0.4);
+    /* border: 2px outset #7f9f22; */
+}
+.button-laporan {
+    position: absolute;
+    /* left: 1rem;
+    bottom: -42rem; */
+    margin-top: 3rem;
+}
+.btn-custom-email {
+    background-color: #fff;
+    color: #7f9f22;
+    border-radius: 10px;
+}
+.btn-custom-telepon {
+    background-color: #fff;
+    color: #7f9f22;
+    border-radius: 10px;
+}
+.fa {
+    padding: 0 5px 0 0;
+}
+.gambar {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.wrapper-gambar {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.gambar-1,
+.gambar-2,
+.gambar-1-2 {
+    position: absolute;
+    /* max-width: 35%; */
+    height: auto;
+}
+.gambar-1 {
+    /* left: 29rem;
+    bottom: -4rem; */
+    max-width: 40%;
+}
+.gambar-2 {
+    /* left: 26rem;
+    bottom: -6rem; */
+    max-width: 40%;
+}
+.gambar-1-2 {
+    /* bottom: -2rem;
+    left: 24rem; */
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.4);
+    max-width: 25%;
+}
+/* Contoh posisi untuk gambar-1 */
+.gambar-1 {
+    /* top: 10px;
+    left: 10px; */
+}
+
+/* Contoh posisi untuk gambar-2 */
+.gambar-2 {
+    /* top: 50px;
+    left: 50px; */
+}
+
+/* Contoh posisi untuk gambar-1-2 */
+.gambar-1-2 {
+    /* top: 100px;
+    left: 100px; */
+}
+.custom-card {
+    background-color: #7f9f22;
+    border-radius: 10px;
+    box-shadow: none;
+}
+
+/* bar progress */
+.progress-bar-container {
+    width: 100%;
+    /* padding: 20px; */
+}
+
+.progress-bar {
+    position: relative;
+    width: 100%;
+    height: 20px;
+    background-color: #b7b9b1;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.progress-bar-inner {
+    width: 70%; /*sesuaikan dg persentase progress*/
+    height: 100%;
+    background-color: #7f9f22;
+    border-radius: 10px 0 0 10px; /*untuk sudut kiri atas dan kiri bawah*/
+}
+.progress-bar-circle {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    width: 30px;
+    height: 30px;
+    background-color: #7f9f22; /*warna hijau dari lingkaran*/
+    border-radius: 50%;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+}
+.donatur {
+    margin-top: 50px;
+    height: 200px;
+}
+.donatur h4 {
+    color: #7f9f22;
+    text-align: center;
+}
+.card-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid #7f9f22;
+    border-radius: 10%;
+    padding: 10px; */
+    /* margin: 10px; */
+}
+/* .card-laporan {
+    background-color: #b7b9b1;
+} */
+
+/* swiper class */
+/* .swiper-button-prev::after,
+.swiper-button-next::after {
+    content: "";
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 900;
+    font-size: 1.2rem !important;
+} */
+
+/* .swiper-button-next,
+.swiper-button-prev {
+    width: initial;
+    height: initial;
+    font-size: 3rem;
+    color: var(--second-color);
+    background: #7f9f22;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    font-weight: 900;
+    width: 35px !important;
+    height: 35px !important;
+    position: absolute;
+    z-index: 10;
+    left: 100%;
+} */
+/* .swiper-button-next {
+    right: ;
+    top: ;
+    transform: translateY();
+} */
+#container {
+    /* max-width: 1120px; */
+    /* display: flex; */
+    /* width: 100%; */
+    /* justify-content: center; */
+    align-items: center;
+    /* background-color: #b7b9b1; */
+}
+.card {
+    /* width: 312px; */
+    border-radius: 10px;
+    /* border: 1px solid #7f9f22; */
+    background-color: #ffffff;
+    box-shadow: -2px 4px 6px rgba(0, 0, 0, 0.3);
+}
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: #7f9f22;
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+    top: 30%;
+    /* transform: translate(-50%); */
+}
+.carousel-control-prev {
+    left: -42px; /* Posisikan di luar sebelah kiri carousel */
+}
+.carousel-control-next {
+    right: -42px; /* Posisikan di luar sebelah kanan carousel */
+}
+.tentangkami-gambar {
+    position: relative; /* Pastikan container memiliki posisi relatif */
+}
+
+.gambar-hijab1,
+.gambar-hijab2,
+.gambar-hijab3,
+.gambar-hijab4 {
+    max-width: 100%; /* Menjaga ukuran gambar tetap dalam container */
+    padding: 5px;
+}
+.kol-ttg {
+    justify-content: center;
+    display: flex;
+}
+.baris-ttg {
+    width: 90%;
+}
+
+/* .hijab1 {
+    top: 0;
+    left: 0;
+}
+
+.hijab2 .gambar-hijab2 {
+    top: 20%;
+    left: 10%;
+}
+
+.hijab2 .gambar-hijab3 {
+    top: 20%;
+    left: 50%;
+}
+
+.hijab2 .gambar-hijab4 {
+    top: 20%;
+    left: 90%;
+} */
+
+/* Ukuran layar untuk xs (<576px) */
+@media (max-width: 575.98px) {
+    .navbar-collapse .navbar-nav .nav-link {
+        font-size: 11px;
+        margin: 0 0 0 10px;
+    }
+    .navbar-collapse .navbar-nav .nav-link .btn-custom-nav {
+        font-size: 10px;
+    }
+
+    .laporan-pembangunan h2 {
+        font-size: 18px;
+    }
+    .laporan-pembangunan p {
+        font-size: 14px;
+    }
+    .laporan-gambar {
+        margin-top: 2px;
+    }
+    .laporan-gambar1,
+    .laporan-gambar2 {
+        padding: 0 0 0 10px;
+    }
+    .gambar-1 {
+        top: -7rem;
+        left: auto;
+        right: -1rem;
+        bottom: auto;
+        max-width: 20%;
+    }
+
+    .gambar-2 {
+        top: auto;
+        left: auto;
+        right: 3rem;
+        bottom: -4rem;
+        max-width: 20%;
+    }
+
+    .gambar-1-2 {
+        top: auto;
+        left: auto;
+        right: 7rem;
+        bottom: -1rem;
+        max-width: 12%;
+    }
+    .laporan-progres ul li {
+        font-size: 12px;
+    }
+    .laporan-sosmed h6 {
+        font-size: 16px;
+    }
+
+    .container {
+        width: 100%;
+    }
+    .alamat-kami .container {
+        width: 90%;
+    }
+    #donasi h5 {
+        font-size: 14px;
+    }
+    #donasi h4 {
+        font-size: 18px;
+    }
+    #donatur h2 {
+    }
+    .terkumpul-p {
+        position: absolute;
+        width: 100%;
+        left: -15px;
+        bottom: 21px;
+    }
+    .card-slide {
+        width: 21rem;
+    }
+    .swiper-button-prev {
+        left: 15px;
+    }
+    .swiper-button-next {
+        right: 15px;
+    }
+    #donasi {
+        height: 560px;
+        /* margin-bottom: 5rem; */
+    }
+
+    .laporan-gambar img {
+        width: 20%;
+    }
+    .donasi-card1 #paragraf {
+        font-size: 10px;
+    }
+    .progress-bar-container {
+        margin-top: 5px;
+    }
+    .gambar {
+        position: relative !important;
+        left: -42px;
+    }
+    .card-wrapper {
+        display: flex;
+        justify-content: center;
+        /* margin: 10px; */
+        margin: 20px;
+
+        width: 100%;
+    }
+    .carousel-control-prev {
+        left: -10px; /* Posisikan di luar sebelah kiri carousel */
+        top: 43%;
+    }
+    .carousel-control-next {
+        right: -10px; /* Posisikan di luar sebelah kanan carousel */
+        top: 43%;
+    }
+    .item-card {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    #latar-belakang .paragraf {
+        font-size: 12px;
+    }
+    #tentang-kami h2 {
+        font-size: 15px;
+        align-items: end;
+        display: flex;
+    }
+    .latarbelakang-gambar1 {
+        /* width: 45%;
+        left: 2rem; */
+    }
+    .latarbelakang-gambar2 {
+        /* width: 45%;
+        left: 18.5rem; */
+    }
+
+    #tentang-kami .container {
+        width: 80%;
+    }
+    #tentang-kami header img {
+        width: 2.2rem;
+    }
+    #tentang-kami header h4 {
+        font-size: 18px;
+    }
+    #tentang-kami h4 {
+        font-size: 16px;
+    }
+    #tentang-kami h5,
+    #tentang-kami h6,
+    #tentang-kami ol li {
+        font-size: 14px;
+    }
+    .tentangkami-sosmed {
+        margin-top: 10px;
+    }
+    .iframe-yt {
+        width: 15rem;
+    }
+    .iframe-maps {
+        align-items: center;
+        justify-content: center;
+        /* width: 12rem;
+        height: 15rem; */
+    }
+    .div-iframe {
+        /* display: flex;
+        justify-content: center; */
+        /* align-items: center; */
+    }
+    #alamat-kami h3 {
+        font-size: 18px;
+    }
+    #alamat-kami h4 {
+        font-size: 14px;
+    }
+    #alamat-kami p {
+        font-size: 12px;
+    }
+    #alamat-kami button {
+        /* width: 12px; */
+    }
+    #alamat-kami ul {
+        left: -18px;
+    }
+    #alamat-kami a button {
+        font-size: 10px;
+    }
+    .hijab1 img {
+        width: 20%;
+    }
+    .hijab2 img {
+        width: 20%;
+    }
+    .gambar-hijab1 {
+        left: 2rem;
+    }
+    .gambar-hijab2 {
+        left: 9rem;
+    }
+    .gambar-hijab3 {
+        left: 16rem;
+    }
+    .gambar-hijab4 {
+        left: 23rem;
+    }
+
+    .div-gambar2 {
+        width: 10%;
+    }
+    /* .div-gambar1 {
+        width: 40%;
+    } */
+
+    #alamat-kami {
+        height: 650px;
+        /* background: #7f9f22; */
+    }
+    .btn-custom-telepon {
+        height: 36px;
+    }
+    .button-laporan {
+        position: absolute;
+        margin-top: 2rem;
+        font-size: 12px;
+    }
+    .btn-card {
+        position: absolute;
+        bottom: 22px;
+        font-size: 12px;
+    }
+    .donasi-card1 {
+        height: 15rem;
+        margin-bottom: 1rem;
+    }
+    #donasi h2,
+    #donatur h2 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    #donatur {
+        height: 150px;
+    }
+    /* LATAR BELAKANG */
+    #latar-belakang {
+        /* height: 700px; */
+    }
+    #latar-belakang .header {
+        font-size: 20px;
+    }
+    #latar-belakang .paragraf {
+        font-size: 12px;
+    }
+    #latar-belakang .btn-custom {
+        background-color: #7f9f22;
+        color: white;
+        font-size: 12px;
+        margin-bottom: 40px;
+    }
+    .ttgkami-gambar {
+        width: 70%;
+    }
+    .gambar-hijab1,
+    .gambar-hijab2,
+    .gambar-hijab3,
+    .gambar-hijab4 {
+        padding: 5px;
+    }
+    .iframe-maps {
+        width: 100%;
+        margin-top: 4rem;
+    }
+}
+@media (max-width: 540px) {
+    /* DONASI */
+    #donasi {
+        height: 40rem;
+    }
+    #donasi h4 {
+        font-size: 16px;
+    }
+    .donasi-card1 #paragraf {
+        font-size: 9px;
+        width: 100%;
+    }
+    .donasi-card1 {
+        height: 270px;
+    }
+    .btn-card {
+        margin-top: 0px;
+        position: absolute;
+        bottom: 36px;
+        font-size: 12px;
+    }
+}
+@media (max-width: 519px) {
+    .gambar-1 {
+        top: -5rem;
+        right: -2rem;
+        max-width: 22%;
+    }
+
+    .gambar-2 {
+        bottom: -6rem;
+        right: 2rem;
+        max-width: 22%;
+    }
+
+    .gambar-1-2 {
+        bottom: -3rem;
+        right: 6rem;
+        max-width: 13%;
+    }
+    .laporan-gambar .col-3 {
+        width: 20%;
+    }
+    .latar-belakang {
+        height: 750px;
+    }
+    #alamat-kami ul li .fab {
+        margin-right: 19px;
+    }
+    #alamat-kami a button {
+        font-size: 10px;
+        height: 27px;
+    }
+}
+@media (max-width: 484.98px) {
+    #donasi h4 {
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .text-bar p {
+        font-size: 10px;
+    }
+    .btn-card {
+        font-size: 12px;
+    }
+    .donasi-card2 h6 {
+        font-size: 0.8rem;
+        margin-bottom: 0;
+    }
+    .donasi-card2 hr {
+        margin-top: 0.5rem;
+    }
+    #donasi h4 {
+        margin-top: 5px;
+        font-size: 14px;
+        font-weight: 200;
+    }
+    #tentang-kami {
+        height: 40rem;
+    }
+    #tentang-kami header h4 {
+        font-size: 12px;
+    }
+    #tentang-kami h2 {
+        font-size: 14px;
+    }
+    #tentang-kami h4 {
+        font-size: 14px;
+    }
+    #tentang-kami h5,
+    #tentang-kami h6,
+    #tentang-kami ol li {
+        font-size: 12px;
+    }
+}
+@media (max-width: 470.98px) {
+    .gambar-1 {
+        top: -5rem;
+        right: -2rem;
+        max-width: 22%;
+    }
+
+    .gambar-2 {
+        bottom: -5rem;
+        right: 1rem;
+        max-width: 22%;
+    }
+
+    .gambar-1-2 {
+        bottom: -2rem;
+        right: 5rem;
+        max-width: 13%;
+    }
+    #latar-belakang {
+        margin-bottom: 60px;
+    }
+    .donasi-card2 {
+        padding: 0.3rem 1rem;
+    }
+    #alamat-kami ul li .fab {
+        margin-right: 16px;
+    }
+    #alamat-kami a button {
+        font-size: 10px;
+        height: 27px;
+    }
+    .swiper-button-prev {
+        left: 5px;
+    }
+    .swiper-button-next {
+        right: 5px;
+    }
+}
+@media (max-width: 432.98px) {
+    #latar-belakang {
+        /* height: 800px; */
+        margin-bottom: 70px;
+    }
+    #alamat-kami ul li .fab {
+        margin-right: 14px;
+    }
+    #tentang-kami {
+        height: 700px;
+    }
+    #alamat-kami a button {
+        font-size: 9px;
+        height: 27px;
+    }
+    #alamat-kami p {
+        font-size: 10px;
+    }
+    #laporan-sosmed h6 {
+        font-size: 14px;
+    }
+    #laporan-sosmed ul li .fab {
+        margin-right: 10px;
+    }
+    #laporan-sosmed ul li .fab,
+    #laporan-sosmed ul li .fa {
+        font-size: 14px;
+    }
+    #donasi h4 {
+        margin-top: 5px;
+        font-size: 12px;
+        font-weight: 200;
+    }
+    .donasi-card1 #paragraf {
+        font-size: 8px;
+        width: 100%;
+    }
+    .ttd h6 {
+        font-size: 0.8rem;
+    }
+}
+@media (max-width: 405.98px) {
+    .button-hero {
+        font-size: 12px;
+    }
+    .gambar-1 {
+        top: -4.3rem;
+        right: -2rem;
+        max-width: 20%;
+    }
+
+    .gambar-2 {
+        bottom: -4rem;
+        right: 0rem;
+        max-width: 20%;
+    }
+
+    .gambar-1-2 {
+        bottom: -2rem;
+        right: 3.5rem;
+        max-width: 13%;
+    }
+    #latar-belakang {
+        height: 800px;
+    }
+    #laporan-sosmed ul li .fab {
+        margin-right: 9px;
+    }
+    #laporan-sosmed ul li .fab,
+    #laporan-sosmed ul li .fa {
+        font-size: 12px;
+    }
+    #tentang-kami .container {
+        width: 100%;
+    }
+    .card-slide {
+        width: 17rem;
+    }
+    .swiper-button-prev {
+        left: 5px;
+    }
+    .swiper-button-next {
+        right: 5px;
+    }
+    #alamat-kami a button {
+        font-size: 8px;
+        height: 27px;
+    }
+    #alamat-kami p {
+        font-size: 10px;
+    }
+    .alamat-kami .container {
+        width: 100%;
+    }
+    .donasi-card2 h6 {
+        font-size: 0.7rem;
+        margin-bottom: 0;
+    }
+    .kartu1,
+    .kartu2 {
+        height: 7.1rem;
+    }
+}
+@media (max-width: 374.98px) {
+    #donasi h4 {
+        margin-top: 5px;
+        font-size: 9.5px;
+        font-weight: 400;
+    }
+    #donasi h5 {
+        font-size: 12px;
+    }
+    .donasi-card1 #paragraf {
+        font-size: 7px;
+        width: 100%;
+    }
+}
+@media (max-width: 370.98px) {
+    .gambar-1 {
+        top: -4.3rem;
+        right: -2rem;
+        max-width: 20%;
+    }
+
+    .gambar-2 {
+        bottom: -3rem;
+        right: 0rem;
+        max-width: 20%;
+    }
+
+    .gambar-1-2 {
+        bottom: -1rem;
+        right: 3.1rem;
+        max-width: 13%;
+    }
+    #latar-belakang {
+        height: 840px;
+    }
+    #laporan-sosmed h6 {
+        font-size: 0.8rem;
+    }
+    #alamat-kami ul li .fab {
+        margin-right: 10px;
+    }
+    #alamat-kami ul li .fab,
+    #alamat-kami ul li .fa {
+        font-size: 12px;
+    }
+    .button-hero {
+        font-size: 12px;
+    }
+}
+@media (max-width: 340.98px) {
+    #latar-belakang {
+        height: 860px;
+    }
+    #alamat-kami h4 {
+        font-size: 12px;
+    }
+    #alamat-kami a button {
+        font-size: 7px;
+        height: 22px;
+    }
+}
+@media (max-width: 330.98px) {
+    .donasi-card2 {
+        height: 12rem;
+    }
+}
+@media (max-width: 325.98px) {
+    .gambar-1 {
+        top: -4.3rem;
+        right: -2rem;
+        max-width: 20%;
+    }
+
+    .gambar-2 {
+        bottom: -2.3rem;
+        right: 0rem;
+        max-width: 20%;
+    }
+
+    .gambar-1-2 {
+        bottom: -0.4rem;
+        right: 2.5rem;
+        max-width: 13%;
+    }
+    /* LATAR BELAKANG */
+    #latar-belakang {
+        height: 890px;
+    }
+    #latar-belakang .header {
+        font-size: 20px;
+    }
+    .swiper-button-prev {
+        left: -5px;
+    }
+    .swiper-button-next {
+        right: -5px;
+    }
+}
+@media (max-width: 356.98px) {
+    .kartu1,
+    .kartu2 {
+        height: 7.5rem;
+    }
+}
+
+/* Ukuran layar untuk sm (≥576px) */
+@media (min-width: 576px) {
+    /* .button-hero {
+        position: absolute;
+        bottom: 146px;
+        left: 296px;
+    } */
+    /* .button-laporan {
+        bottom: -461px;
+        left: 53px;
+    } */
+    #donasi h5 {
+        font-size: 18px;
+    }
+    .donasi-card1 {
+        height: 19rem;
+        margin-bottom: 1rem;
+    }
+    .gambar-1 {
+        top: -4.7rem;
+        right: -0.4rem;
+        max-width: 20%;
+    }
+    #tentang-kami h2 {
+        align-items: end;
+        display: flex;
+    }
+    .gambar-2 {
+        bottom: -5.5rem;
+        right: 2rem;
+        max-width: 20%;
+    }
+
+    .gambar-1-2 {
+        bottom: -2.9rem;
+        right: 6.6rem;
+        max-width: 13%;
+    }
+    #laporan-sosmed ul li .fab {
+        margin-right: 12px;
+    }
+    #laporan-sosmed ul li .fab,
+    #laporan-sosmed ul li .fa {
+        font-size: 14px;
+    }
+    #donatur {
+        height: 10rem;
+    }
+    .card-slide {
+        width: 17rem;
+    }
+    .swiper-button-next {
+        right: 10px;
+    }
+    .swiper-button-prev {
+        left: 10px;
+    }
+    #latar-belakang {
+        height: 860px;
+    }
+    .ttgkami-gambar {
+        margin-top: 20px;
+    }
+    header h2 {
+        font-size: 18px;
+    }
+    heaeder h4 {
+        font-size: 16px;
+    }
+    #latar-belakang .paragraf {
+        font-size: 14px;
+    }
+    #tentang-kami h4 {
+        font-size: 18px;
+    }
+    .laporan-pembangunan h2 {
+        font-size: 20px;
+    }
+    .laporan-pembangunan p {
+        font-size: 14px;
+    }
+    .laporan-gambar .col-3 {
+        width: 8rem;
+        /* margin: 0; */
+    }
+    .laporan-progres ul li {
+        font-size: 12px;
+    }
+    .laporan-sosmed h6 {
+        font-size: 16px;
+    }
+
+    #donasi {
+        height: 620px;
+    }
+    .donasi-card1 {
+        /* display: flex;
+        justify-content: center;
+        width: 90%; */
+    }
+    .donasi-card2 {
+        /* width: 90%;
+        margin-top: 15px; */
+    }
+    #paragraf {
+        font-size: 10px;
+    }
+    #donasi-progres h4 {
+        font-size: 18px;
+    }
+    .card-wrapper {
+        margin: 10px;
+    }
+    .carousel-control-next {
+        right: -2%;
+    }
+    .carousel-control-prev {
+        left: -2%;
+    }
+    .carousel-control-prev,
+    .carousel-control-next {
+        top: 40%;
+    }
+    #tentang-kami header img {
+        width: 3rem;
+    }
+    /* .hijab1 {
+        display: none;
+    } */
+    /* .hijab2 img {
+        width: 100%;
+    } */
+    #tentang-kami {
+        height: 850px;
+    }
+    .latarbelakang-gambar1 {
+        /* width: 45%;
+        left: 2rem; */
+    }
+    .latarbelakang-gambar2 {
+        /* width: 45%;
+        left: 18.5rem; */
+    }
+    .hijab1 img {
+        width: 20%;
+    }
+    .hijab2 img {
+        width: 20%;
+    }
+    .gambar-hijab1 {
+        left: 2rem;
+    }
+    .gambar-hijab2 {
+        left: 9rem;
+    }
+    .gambar-hijab3 {
+        left: 16rem;
+    }
+    .gambar-hijab4 {
+        left: 23rem;
+    }
+    .iframe-maps {
+        align-items: center;
+        justify-content: center;
+        width: 12rem;
+        height: 30rem;
+    }
+    .div-iframe {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    #alamat-kami {
+        height: 600px;
+        /* background: #7f9f22; */
+    }
+    #alamat-kami h4 {
+        font-size: 14px;
+    }
+    #alamat-kami p {
+        font-size: 12px;
+    }
+    #alamat-kami button {
+        /* width: 12px; */
+    }
+    #alamat-kami ul {
+        left: 0;
+    }
+    #alamat-kami a button {
+        font-size: 12px;
+    }
+    .iframe-maps {
+        margin-top: 30px;
+        height: auto;
+    }
+
+    /* ------------ */
+}
+/* Ukuran layar untuk md (≥768px) */
+@media (min-width: 768px) {
+    /* .button-hero {
+        position: absolute;
+        left: 291px;
+        bottom: 178px;
+    }
+    .button-laporan {
+        position: absolute;
+        left: 36px;
+        bottom: -584px;
+    } */
+    #latar-belakang {
+        height: 1150px;
+    }
+    .header h2 {
+        align-items: center;
+        font-size: 12px;
+    }
+    .gambar-1 {
+        top: 12.2rem;
+        right: -0.4rem;
+        max-width: 50%;
+    }
+
+    .gambar-2 {
+        bottom: -30.5rem;
+        right: 3.4rem;
+        max-width: 50%;
+    }
+
+    .gambar-1-2 {
+        bottom: -24.9rem;
+        right: 11.1rem;
+        max-width: 30%;
+    }
+    .laporan-gambar .col-3 {
+        width: 11rem;
+        /* margin: 0; */
+    }
+    .laporan-progres ul li {
+        font-size: 16px;
+    }
+    #laporan-sosmed h6 {
+        font-size: 22px;
+    }
+    #tentang-kami h2 {
+        align-items: center;
+        display: flex;
+    }
+    #alamat-kami {
+        height: 800px;
+        /* background: #7f9f22; */
+    }
+
+    #alamat-kami h4 {
+        font-size: 14px;
+    }
+    #alamat-kami p {
+        font-size: 12px;
+    }
+    #alamat-kami button {
+        /* width: 12px; */
+    }
+
+    #alamat-kami a button {
+        font-size: 12px;
+    }
+    .donasi-card1 h5 {
+        font-size: 12px;
+    }
+    .latarbelakang-gambar1 {
+        /* width: 100%;
+        top: 7rem;
+        left: 0rem; */
+    }
+    .latarbelakang-gambar2 {
+        /* width: 100%;
+        bottom: 41rem;
+        left: 0rem; */
+    }
+    #donasi {
+        height: 650px;
+    }
+    #donasi-progres h4 {
+        font-size: 24px;
+    }
+    #donasi-progres p {
+        font-size: 14px;
+    }
+    .text-bar p {
+        font-size: 16px;
+    }
+    .donasi-card1 {
+        /* width: 94%; */
+    }
+    .donasi-card2 {
+        /* margin-top: 20px;
+        width: 94%; */
+    }
+    .laporan-pembangunan h2 {
+        font-size: 24px;
+    }
+    .laporan-pembangunan p {
+        font-size: 16px;
+    }
+    #laporan-sosmed ul li .fab {
+        margin-right: 16px;
+    }
+    #laporan-sosmed ul li .fab,
+    #laporan-sosmed ul li .fa {
+        font-size: 20px;
+    }
+    #latar-belakang p {
+        font-size: 16px;
+    }
+    /* .card-wrapper {
+        margin: 10px;
+    } */
+    .carousel-control-next,
+    .carousel-control-prev {
+        top: 40%;
+    }
+    header img {
+        width: 3rem;
+    }
+    /* .hijab1 {
+        display: none;
+    } */
+    .hijab1 img {
+        width: 92%;
+        top: -15rem;
+        left: 1rem;
+    }
+    .hijab2 img {
+        width: 30%;
+    }
+    .gambar-hijab2 {
+        left: 1rem;
+        bottom: -13rem;
+    }
+    .gambar-hijab3 {
+        left: 8rem;
+        bottom: -13rem;
+    }
+    .gambar-hijab4 {
+        left: 15rem;
+        bottom: -13rem;
+    }
+    #tentang-kami {
+        height: 790px;
+    }
+    #alamat-kami {
+        height: 850px;
+    }
+    .iframe-yt {
+        width: 32rem;
+        height: 20rem;
+    }
+    .iframe-maps {
+        align-items: center;
+        justify-content: center;
+        width: 15rem;
+        height: 10rem;
+    }
+    .update {
+        font-size: 18px;
+    }
+    #donasi h2 {
+        margin-bottom: 30px;
+    }
+    .swiper-button-next {
+        right: -10px;
+    }
+    .swiper-button-prev {
+        left: -10px;
+    }
+    /* .div-iframe {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    } */
+    #latar-belakang {
+        height: 900px;
+    }
+    #tentang-kami h4 {
+        font-size: 18px;
+    }
+    #tentang-kami h5,
+    #tentang-kami h6,
+    #tentang-kami ol li {
+        font-size: 18px;
+    }
+    header h2 {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        font-size: 18px;
+    }
+
+    .iframe-maps {
+        width: 20rem;
+    }
+
+    /* #alamat-kami h3 {
+        font-size: 30px;
+    } */
+    #alamat-kami {
+        height: 700px;
+    }
+    #alamat-kami h4 {
+        font-size: 20px;
+    }
+    #alamat-kami p {
+        font-size: 14px;
+    }
+    #alamat-kami button {
+        /* width: 12px; */
+    }
+    #alamat-kami ul {
+        left: -18px;
+    }
+    #alamat-kami a button {
+        font-size: 18px;
+    }
+    .logoMobile {
+        display: block;
+    }
+    /* 
+    .container {
+        width: 85%;
+    }
+
+    .header {
+        text-align: left;
+    } */
+
+    /* Contoh styling lainnya untuk md */
+    /* .nav-bar {
+        flex-direction: row;
+        justify-content: space-around;
+    } */
+}
+/* Ukuran layar untuk lg (≥992px) laptop*/
+@media (min-width: 992px) {
+    .logoMobile {
+        display: none;
+    }
+    #donasi-progres h4 {
+        font-size: 17px;
+    }
+    #donasi-progres p {
+        font-size: 10px;
+    }
+    .text-bar p {
+        font-size: 14px;
+    }
+    #donasi {
+        height: 30rem;
+    }
+    #donasi h5 {
+        font-size: 18px;
+    }
+    .donasi-card1 {
+        height: 22.3rem;
+        margin-bottom: 1rem;
+    }
+    .btn-card {
+        margin-top: 45px;
+        font-size: 20px;
+    }
+    header h2 {
+        font-size: 26px;
+    }
+    .button-hero {
+        font-size: 20px;
+    }
+    .button-laporan {
+        font-size: 20px;
+    }
+    .btn-custom {
+        font-size: 20px;
+    }
+    .swiper-button-next {
+        right: -60px;
+    }
+    .swiper-button-prev {
+        left: -60px;
+    }
+    .logo p {
+        font-size: 30px;
+    }
+    .logo img {
+        width: 5rem;
+    }
+    #laporan-gambar1,
+    #laporan-gambar2 {
+        width: 50%;
+    }
+    .judul1,
+    .judul2,
+    .judul3 {
+        font-size: 18px;
+    }
+    .desk1,
+    .desk2,
+    .desk3 {
+        font-size: 16px;
+    }
+    .gambar-1 {
+        top: 11rem;
+        right: -0.4rem;
+        max-width: 55%;
+    }
+
+    .gambar-2 {
+        bottom: -30.5rem;
+        right: 6.9rem;
+        max-width: 55%;
+    }
+
+    .gambar-1-2 {
+        bottom: -24.5rem;
+        right: 14.2rem;
+        max-width: 33%;
+    }
+    .container {
+        width: 80%;
+    }
+    .nav-link {
+        padding: 0;
+        margin: 0 5px 0 5px;
+    }
+    #laporan-sosmed h6 {
+        font-size: 20px;
+    }
+    #laporan-sosmed .fa,
+    #laporan-sosmed .fab {
+        font-size: 1.5rem;
+    }
+    .laporan-progres ul li {
+        font-size: 18px;
+    }
+    .update {
+        font-size: 24px;
+    }
+
+    .nav-item .fab,
+    .nav-item .fa {
+        font-size: 1rem;
+    }
+    .item-kami .fab,
+    .item-kami .fa {
+        font-size: 1.2rem;
+    }
+    .donasi-card2 .text-light {
+        /* width: 350px; */
+    }
+    .latarbelakang-gambar1 {
+        /* width: 100%;
+        top: 7rem;
+        left: 0rem; */
+    }
+    .latarbelakang-gambar2 {
+        /* width: 100%;
+        bottom: 32rem;
+        left: 0rem; */
+    }
+    #latar-belakang {
+        height: 1100px;
+    }
+    .hijab1 img {
+        width: 93%;
+        top: -14rem;
+        left: 1rem;
+    }
+    .gambar-hijab2 {
+        left: 1rem;
+        bottom: -17rem;
+    }
+    .gambar-hijab3 {
+        left: 9rem;
+        bottom: -17rem;
+    }
+    .gambar-hijab4 {
+        left: 17rem;
+        bottom: -17rem;
+    }
+    #tentang-kami {
+        height: 800px;
+    }
+    #tentang-kami h4 {
+        font-size: 20px;
+    }
+    #tentang-kami h5,
+    #tentang-kami h6,
+    #tentang-kami ol li {
+        font-size: 16px;
+    }
+
+    .iframe-maps {
+        width: 30rem;
+        height: 16rem;
+    }
+    #alamat-kami {
+        height: 450px;
+    }
+    #alamat-kami h4 {
+        font-size: 18px;
+    }
+    #alamat-kami p {
+        font-size: 14px;
+    }
+    #alamat-kami button {
+        /* width: 12px; */
+    }
+
+    #alamat-kami a button {
+        font-size: 14px;
+    }
+    #alamat-kami a .btn-custom-telepon {
+        font-size: 18px;
+    }
+    #alamat-kami ul li .fab {
+        margin-right: 17px;
+    }
+}
+@media (min-width: 1050.98px) {
+    .gambar-1 {
+        top: 11rem;
+        right: -0.4rem;
+        max-width: 55%;
+    }
+    .gambar-2 {
+        bottom: -34.5rem;
+        right: 6.1rem;
+        max-width: 55%;
+    }
+    .gambar-1-2 {
+        bottom: -29.1rem;
+        right: 15.2rem;
+        max-width: 33%;
+    }
+}
+@media (min-width: 1149.98px) {
+    .gambar-1 {
+        top: 8rem;
+        right: -0.4rem;
+        max-width: 55%;
+    }
+    .gambar-2 {
+        bottom: -34.5rem;
+        right: 6.1rem;
+        max-width: 55%;
+    }
+    .gambar-1-2 {
+        bottom: -27.7rem;
+        right: 16.9rem;
+        max-width: 33%;
+    }
+}
+/* Ukuran layar untuk xl (≥1200px) */
+@media (min-width: 1200px) {
+    #donasi-progres h4 {
+        font-size: 22px;
+    }
+    #donasi-progres p {
+        font-size: 11px;
+    }
+    .text-bar p {
+        font-size: 14px;
+    }
+    #donasi h5 {
+        font-size: 18px;
+    }
+    .donasi-card1 {
+        height: 22.3rem;
+        margin-bottom: 1rem;
+    }
+    #container-nav {
+        width: 100%;
+    }
+    .desk1,
+    .desk2,
+    .desk3 {
+        font-size: 14px;
+    }
+    .gambar-1 {
+        /* width: 60%;
+        left: 15rem;
+        top: 9rem; */
+    }
+    .gambar-2 {
+        /* width: 45%;
+        left: 9rem;
+        bottom: 6rem; */
+    }
+    .gambar-1-2 {
+        /* left: 6rem;
+        bottom: 14rem;
+        width: 24%; */
+    }
+    .logo img {
+        width: 60px;
+    }
+    .logo p {
+        font-size: 18px;
+    }
+    .item-nav {
+        font-size: 18px;
+    }
+    #latar-belakang {
+        height: 950px;
+    }
+    .laporan-pembangunan h2 {
+        font-size: 32px;
+    }
+    .laporan-pembangunan p {
+        font-size: 18px;
+    }
+    #laporan-sosmed h6 {
+        font-size: 22px;
+    }
+    #laporan-sosmed .navbar-nav .fab,
+    #laporan-sosmed .navbar-nav .fa {
+        font-size: 1.8rem;
+    }
+    .laporan-progres ul li {
+        font-size: 20px;
+    }
+    .update {
+        font-size: 22px;
+    }
+    .latarbelakang-gambar1 {
+        top: 5rem;
+    }
+    .latarbelakang-gambar2 {
+        /* bottom: 20rem; */
+    }
+    #tentang-kami {
+        height: 1000px;
+    }
+    /* #latar-belakang .header {
+        font-size: 28px;
+    }
+    #latar-belakang .paragraf {
+        font-size: 20px;
+    } */
+    .iframe-maps {
+        width: 30rem;
+    }
+
+    .hijab1 img {
+        width: 93%;
+        top: -18rem;
+        left: 1rem;
+    }
+    .gambar-hijab2 {
+        bottom: -20rem;
+    }
+    .gambar-hijab3 {
+        bottom: -20rem;
+        left: 10.5rem;
+    }
+    .gambar-hijab4 {
+        bottom: -20rem;
+        left: 20rem;
+    }
+
+    #tentang-kami header img {
+        width: 5rem;
+    }
+    #tentang-kami h4 {
+        font-size: 26px;
+    }
+    #tentang-kami h5,
+    #tentang-kami h6,
+    #tentang-kami ol li {
+        font-size: 20px;
+    }
+    #tentang-kami h2 {
+        font-size: 28px;
+    }
+    #alamat-kami h3 {
+        font-size: 30px;
+    }
+    #alamat-kami h4 {
+        font-size: 20px;
+    }
+    #alamat-kami p {
+        font-size: 16px;
+    }
+    #alamat-kami button {
+        /* width: 12px; */
+    }
+
+    #alamat-kami ul {
+        left: -18px;
+    }
+    #alamat-kami a button {
+        font-size: 12px;
+    }
+    #alamat-kami a .btn-custom-telepon {
+        font-size: 18px;
+    }
+    #alamat-kami ul li .fab {
+        margin-right: 22px;
+    }
+    #alamat-kami .navbar-nav .fab,
+    #alamat-kami .navbar-nav .fa {
+        font-size: 8rem;
+    }
+    .baris-ttg .col-lg-4 {
+        flex: 0 0 auto;
+        width: 30.033333%;
+    }
+    .baris-ttg .col-lg-12 {
+        flex: 0 0 auto;
+        width: 90%;
+    }
+    /* body {
+        font-size: 18px;
+        padding: 0 30px;
+    }
+
+    .container {
+        width: 75%;
+    }
+
+    .header {
+        text-align: left;
+    } */
+
+    /* Contoh styling lainnya untuk xl */
+    /* .nav-bar {
+        flex-direction: row;
+        justify-content: space-between;
+    } */
+}
+@media (min-width: 1249.98px) {
+    .gambar-1 {
+        top: 5.5rem;
+        right: -0.4rem;
+        max-width: 55%;
+    }
+    .gambar-2 {
+        bottom: -36.5rem;
+        right: 8.4rem;
+        max-width: 55%;
+    }
+    .gambar-1-2 {
+        bottom: -26.8rem;
+        right: 20.4rem;
+        max-width: 33%;
+    }
+    .baris-ttg .col-lg-4 {
+        flex: 0 0 auto;
+        width: 28.333333%;
+    }
+    .baris-ttg .col-lg-12 {
+        flex: 0 0 auto;
+        width: 85%;
+    }
+}
+@media (min-width: 1345.98px) {
+    .gambar-1 {
+        top: 4.5rem;
+        right: -2.2rem;
+        max-width: 55%;
+    }
+    .gambar-2 {
+        bottom: -34.5rem;
+        right: 6.9rem;
+        max-width: 55%;
+    }
+    .gambar-1-2 {
+        bottom: -26.7rem;
+        right: 18.3rem;
+        max-width: 33%;
+    }
+    .baris-ttg .col-lg-4 {
+        flex: 0 0 auto;
+        width: 26.733333%;
+    }
+    .baris-ttg .col-lg-12 {
+        flex: 0 0 auto;
+        width: 80%;
+    }
+}
+@media (min-width: 1400px) {
+    #donasi-progres h4 {
+        font-size: 26px;
+    }
+    #donasi-progres p {
+        font-size: 11px;
+    }
+    .text-bar p {
+        font-size: 14px;
+    }
+    #donasi h5 {
+        font-size: 18px;
+    }
+    .donasi-card1 {
+        height: 22.3rem;
+        margin-bottom: 1rem;
+    }
+    .gambar-1 {
+        /* width: 60%;
+        left: 15rem;
+        top: 9rem; */
+    }
+    .gambar-2 {
+        /* width: 45%;
+        left: 7rem;
+        bottom: -1rem; */
+    }
+    .gambar-1-2 {
+        /* left: 4rem;
+        bottom: 8rem;
+        width: 24%; */
+    }
+    #donasi {
+        height: 31rem;
+    }
+    .latarbelakang-gambar1 {
+        /* top: 5rem; */
+    }
+    .latarbelakang-gambar2 {
+        /* bottom: 9rem; */
+    }
+    #latar-belakang {
+        height: 55rem;
+    }
+    .hijab1 img {
+        width: 96%;
+        top: 0rem;
+        left: 17.3rem;
+    }
+    .gambar-hijab2 {
+        bottom: -33.6rem;
+        left: 5.8rem;
+    }
+    .gambar-hijab3 {
+        bottom: -33.6rem;
+        left: 17.5rem;
+    }
+    .gambar-hijab4 {
+        bottom: -33.6rem;
+        left: 29rem;
+    }
+    #tentang-kami {
+        height: 800px;
+    }
+    /* body {
+        font-size: 19px;
+
+    }
+
+    .container {
+        width: 70%;
+    }
+
+    .header {
+        text-align: left;
+    } */
+
+    /* Contoh styling lainnya untuk xxl */
+    /* .nav-bar {
+        flex-direction: row;
+        justify-content: space-between;
+    } */
+}
+@media (min-width: 1489px) {
+    #donasi-progres h4 {
+        font-size: 29px;
+    }
+    .gambar-1 {
+        top: 4.5rem;
+        right: -2.2rem;
+        max-width: 55%;
+    }
+    .gambar-2 {
+        bottom: -36.9rem;
+        right: 6.3rem;
+        max-width: 55%;
+    }
+    .gambar-1-2 {
+        bottom: -27.9rem;
+        right: 19.7rem;
+        max-width: 33%;
+    }
+}
