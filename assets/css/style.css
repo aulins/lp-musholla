@@ -480,6 +480,10 @@ p {
 
 /* Ukuran layar untuk xs (<576px) */
 @media (max-width: 575.98px) {
+	.kolomgambar {
+		display: flex;
+		justify-content: center;
+	}
     .navbar-collapse .navbar-nav .nav-link {
         font-size: 11px;
         margin: 0 0 0 10px;
